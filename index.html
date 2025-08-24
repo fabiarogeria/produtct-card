@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      *{
+        margin: 0;
+        padding:0 ;
+        box-sizing: border-box;
+      }
+  body {
+  background-color: cornsilk; 
+  
+
+}
+.container{
+  display: flex;
+ margin: 10% auto;
+  overflow: hidden;
+  flex-direction: row;
+  width: 650px;
+  height: 460px;
+  padding: 10px 32px;
+  
+}
+.img-content img{
+  width: 300px;
+  height: 450px;
+  border-radius: 8px;
+}
+.description{
+  width: 300px;
+  height: 450px;
+  padding: 32x;
+  background-color: white;
+}
+h3{
+  font-size: 20px;
+  font-family: 'montserrat',sans-serif;
+  font-weight: 200;
+  color: gray;
+  margin-top: 24px;
+  margin-bottom: 24px;
+   letter-spacing: 5px;
+}
+h1{
+  font-size: 28px;
+  font-family: 'montserrat',sans-serif;
+  
+  color: black;
+  margin-bottom: 30px;
+  line-height: 32px;
+}
+p{
+  font-size: 14px;
+  font-family: 'montserrat',sans-serif;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 30px;
+  line-height: 24px;
+  gap: 10px;
+}
+.price{
+  display: flex;
+  line-height: 48px; 
+  align-items: center;
+  gap: 29px;
+  margin-bottom: 39px;
+}
+.price-one{
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.price-second{
+  text-decoration: line-through;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 23px;
+  color: red;
+}
+button{
+  width: 236px;
+  height: 50px;
+  font-size: 22px;
+  background-color: deeppink;
+  border: none;
+  border-radius: 8px;
+  gap: 10px;
+  color: white;
+  font-weight: 400;
+}
+button:hover{
+  background-color: darkmagenta;
+  cursor: pointer;
+}
+button i{
+  margin: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+      <div class="img-content">
+        <img src="https://epocacosmeticos.vteximg.com.br/arquivos/ids/814084-450-450/la-vie-est-belle-75ml.jpg?v=638785993008130000" alt="">
+      </div>
+      <div class="description">
+        <div class="text-description">
+          <h3>Perfume</h3>
+          <h1>Perfume La Vie Est Belle Lancôme Eau de Parfum Feminino</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="price">
+             <div class="price-one"><span>$145.00</span></div>
+            <div class="price-second"><span>$155.00</span></div>
+          </div>  
+            
+          </div>
+            <button><i class="fa fa-cart-arrow-down"></i>Add to Cart</button>
+        </div>
+      </div>
+    </div>
+   
+
+</body>
+</html>
